@@ -1,0 +1,28 @@
+{
+  "name": "m04_tutorial_backend",
+  "version": "1.0.0",
+  "description": "backend song applications",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomomi-H011/M04_Tutorial_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomomi-H011/M04_Tutorial_Backend/issues"
+  },
+  "homepage": "https://github.com/Tomomi-H011/M04_Tutorial_Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "node": "^23.7.0",
+    "nodemon": "^3.1.9"
+  }
+}
